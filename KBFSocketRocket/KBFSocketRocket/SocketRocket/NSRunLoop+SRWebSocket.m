@@ -10,7 +10,7 @@
 //
 
 #import "NSRunLoop+SRWebSocket.h"
-#import "NSRunLoop+SRWebSocketPrivate.h"
+#import "Internal/NSRunLoop+SRWebSocketPrivate.h"
 
 #import "SRRunLoopThread.h"
 

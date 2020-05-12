@@ -198,16 +198,16 @@
 		18400FCE246AA508008F4792 /* SocketRocket */ = {
 			isa = PBXGroup;
 			children = (
-				18400FCF246AA508008F4792 /* SRWebSocket.m */,
-				18400FD0246AA508008F4792 /* NSRunLoop+SRWebSocket.m */,
-				18400FD1246AA508008F4792 /* SRSecurityPolicy.m */,
-				18400FD2246AA508008F4792 /* SocketRocket.h */,
 				18400FD3246AA508008F4792 /* Internal */,
-				18400FFA246AA508008F4792 /* NSURLRequest+SRWebSocket.h */,
-				18400FFB246AA508008F4792 /* SRWebSocket.h */,
 				18400FFC246AA508008F4792 /* NSRunLoop+SRWebSocket.h */,
-				18400FFD246AA508008F4792 /* SRSecurityPolicy.h */,
+				18400FD0246AA508008F4792 /* NSRunLoop+SRWebSocket.m */,
+				18400FFA246AA508008F4792 /* NSURLRequest+SRWebSocket.h */,
 				18400FFE246AA508008F4792 /* NSURLRequest+SRWebSocket.m */,
+				18400FD2246AA508008F4792 /* SocketRocket.h */,
+				18400FFD246AA508008F4792 /* SRSecurityPolicy.h */,
+				18400FD1246AA508008F4792 /* SRSecurityPolicy.m */,
+				18400FFB246AA508008F4792 /* SRWebSocket.h */,
+				18400FCF246AA508008F4792 /* SRWebSocket.m */,
 			);
 			path = SocketRocket;
 			sourceTree = "<group>";
