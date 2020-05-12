@@ -12,7 +12,7 @@
 #import "NSRunLoop+SRWebSocket.h"
 #import "Internal/NSRunLoop+SRWebSocketPrivate.h"
 
-#import "SRRunLoopThread.h"
+#import "Internal/RunLoop/SRRunLoopThread.h"
 
 // Required for object file to always be linked.
 void import_NSRunLoop_SRWebSocket() { }
