@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SocketRocket","SocketRocket/*.{h,m}"
+  spec.source_files  = "SocketRocket/*.{h,m}","SocketRocket/Internal/Utilities/*.{h,m}","SocketRocket/Internal/IOConsumer/*.{h,m}","SocketRocket/Internal/Delegate/*.{h,m}","SocketRocket/Internal/*.{h,m}","SocketRocket/Internal/Proxy/*.{h,m}","SocketRocket/Internal/RunLoop/*.{h,m}","SocketRocket/Internal/Security/*.{h,m}"
   # spec.exclude_files = "UIKit"
   spec.platform     = :ios, "9.0"
   # spec.public_header_files = "Classes/**/*.h"
