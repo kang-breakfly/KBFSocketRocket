@@ -89,9 +89,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SocketRocket/*.{h,m}"
+  spec.source_files  = "SocketRocket/*.{h,m}","SocketRocket/*.{h,m}"
   # spec.exclude_files = "UIKit"
-  spec.platform     = :ios, "9.0"
+  # spec.platform     = :ios, "9.0"
   # spec.public_header_files = "Classes/**/*.h"
 
 
@@ -128,7 +128,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-   spec.requires_arc = true
+   # spec.requires_arc = true
    spec.ios.frameworks = 'CFNetwork', 'Security'
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
