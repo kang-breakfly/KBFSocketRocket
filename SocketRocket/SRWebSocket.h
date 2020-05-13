@@ -10,7 +10,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <CFNetwork/CFNetwork.h>
 NS_ASSUME_NONNULL_BEGIN
 
 typedef NS_ENUM(NSInteger, SRReadyState) {
@@ -104,7 +104,7 @@ extern NSString *const SRHTTPResponseErrorKey;
 /**
  All HTTP headers that were received by socket or `nil` if none were received so far.
  */
-@property (nullable, nonatomic, assign, readonly) CFHTTPMessageRef receivedHTTPHeaders;
+@property (nonatomic, assign, readonly) CFHTTPMessageRef receivedHTTPHeaders;
 
 /**
  Array of `NSHTTPCookie` cookies to apply to the connection.
