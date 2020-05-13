@@ -142,6 +142,7 @@
 		18400F8A246AA4C2008F4792 = {
 			isa = PBXGroup;
 			children = (
+				18400FCE246AA508008F4792 /* SocketRocket */,
 				18400F95246AA4C2008F4792 /* KBFSocketRocket */,
 				18400FB1246AA4C7008F4792 /* KBFSocketRocketTests */,
 				18400FBC246AA4C7008F4792 /* KBFSocketRocketUITests */,
@@ -162,7 +163,6 @@
 		18400F95246AA4C2008F4792 /* KBFSocketRocket */ = {
 			isa = PBXGroup;
 			children = (
-				18400FCE246AA508008F4792 /* SocketRocket */,
 				18400F96246AA4C2008F4792 /* AppDelegate.h */,
 				18400F97246AA4C2008F4792 /* AppDelegate.m */,
 				18400F9C246AA4C2008F4792 /* ViewController.h */,
@@ -232,8 +232,8 @@
 		18400FD5246AA508008F4792 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
-				18400FD6246AA508008F4792 /* SRProxyConnect.m */,
 				18400FD7246AA508008F4792 /* SRProxyConnect.h */,
+				18400FD6246AA508008F4792 /* SRProxyConnect.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
