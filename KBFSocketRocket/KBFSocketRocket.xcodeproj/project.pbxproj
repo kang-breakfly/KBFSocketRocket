@@ -198,16 +198,16 @@
 		184CBD67246B8A0F003DC835 /* SocketRocket */ = {
 			isa = PBXGroup;
 			children = (
-				184CBD68246B8A0F003DC835 /* SRWebSocket.m */,
-				184CBD69246B8A0F003DC835 /* NSRunLoop+SRWebSocket.m */,
-				184CBD6A246B8A0F003DC835 /* SRSecurityPolicy.m */,
-				184CBD6B246B8A0F003DC835 /* SocketRocket.h */,
 				184CBD6C246B8A0F003DC835 /* Internal */,
-				184CBD93246B8A0F003DC835 /* NSURLRequest+SRWebSocket.h */,
-				184CBD94246B8A0F003DC835 /* SRWebSocket.h */,
 				184CBD95246B8A0F003DC835 /* NSRunLoop+SRWebSocket.h */,
-				184CBD96246B8A0F003DC835 /* SRSecurityPolicy.h */,
+				184CBD69246B8A0F003DC835 /* NSRunLoop+SRWebSocket.m */,
+				184CBD93246B8A0F003DC835 /* NSURLRequest+SRWebSocket.h */,
 				184CBD97246B8A0F003DC835 /* NSURLRequest+SRWebSocket.m */,
+				184CBD6B246B8A0F003DC835 /* SocketRocket.h */,
+				184CBD96246B8A0F003DC835 /* SRSecurityPolicy.h */,
+				184CBD6A246B8A0F003DC835 /* SRSecurityPolicy.m */,
+				184CBD94246B8A0F003DC835 /* SRWebSocket.h */,
+				184CBD68246B8A0F003DC835 /* SRWebSocket.m */,
 			);
 			name = SocketRocket;
 			path = ../SocketRocket;
