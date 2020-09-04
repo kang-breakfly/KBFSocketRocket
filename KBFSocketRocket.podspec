@@ -11,7 +11,9 @@ Pod::Spec.new do |spec|
   spec.name         = "KBFSocketRocket"
   spec.version      = "0.2.2"
   spec.summary      = "A short description of KBFSocketRocket."
-  spec.description  ="KBFSocketRocket"
+  spec.description  =<<-DESC
+                      KBFSocketRocket
+                   DESC
 
   spec.homepage     = "https://github.com/kang-breakfly/KBFSocketRocket"
 
@@ -23,6 +25,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "SocketRocket/**/*.{h,m}","SocketRocket/*.{h,m}"
   spec.public_header_files = 'SocketRocket/*.h'
+spec.exclude_files = "SocketRocket/Internal","SocketRocket/Internal/*"
 
   spec.requires_arc = true
   spec.ios.frameworks = 'CFNetwork', 'Security'

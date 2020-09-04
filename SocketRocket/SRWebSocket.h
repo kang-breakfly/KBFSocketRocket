@@ -80,7 +80,7 @@ extern NSString *const SRHTTPResponseErrorKey;
 
  If `nil` and `delegateOperationQueue` is `nil`, the socket uses main queue for performing all delegate method calls.
  */
-@property (nullable, nonatomic, strong) dispatch_queue_t delegateDispatchQueue;
+@property (nullable, nonatomic) dispatch_queue_t delegateDispatchQueue;
 
 /**
  An operation queue for scheduling the delegate calls.

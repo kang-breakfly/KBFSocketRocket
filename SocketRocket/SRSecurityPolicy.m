@@ -8,7 +8,7 @@
 //
 
 #import "SRSecurityPolicy.h"
-#import "SRPinningSecurityPolicy.h"
+#import "Internal/Security/SRPinningSecurityPolicy.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

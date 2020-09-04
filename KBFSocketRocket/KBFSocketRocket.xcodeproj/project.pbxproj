@@ -216,16 +216,16 @@
 		184CBD6C246B8A0F003DC835 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				184CBD6D246B8A0F003DC835 /* SRConstants.h */,
+				184CBD78246B8A0F003DC835 /* Delegate */,
+				184CBD8D246B8A0F003DC835 /* IOConsumer */,
+				184CBD77246B8A0F003DC835 /* NSRunLoop+SRWebSocketPrivate.h */,
+				184CBD7B246B8A0F003DC835 /* NSURLRequest+SRWebSocketPrivate.h */,
 				184CBD6E246B8A0F003DC835 /* Proxy */,
 				184CBD71246B8A0F003DC835 /* RunLoop */,
 				184CBD74246B8A0F003DC835 /* Security */,
-				184CBD77246B8A0F003DC835 /* NSRunLoop+SRWebSocketPrivate.h */,
-				184CBD78246B8A0F003DC835 /* Delegate */,
-				184CBD7B246B8A0F003DC835 /* NSURLRequest+SRWebSocketPrivate.h */,
-				184CBD7C246B8A0F003DC835 /* Utilities */,
-				184CBD8D246B8A0F003DC835 /* IOConsumer */,
+				184CBD6D246B8A0F003DC835 /* SRConstants.h */,
 				184CBD92246B8A0F003DC835 /* SRConstants.m */,
+				184CBD7C246B8A0F003DC835 /* Utilities */,
 			);
 			path = Internal;
 			sourceTree = "<group>";
@@ -233,8 +233,8 @@
 		184CBD6E246B8A0F003DC835 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
-				184CBD6F246B8A0F003DC835 /* SRProxyConnect.m */,
 				184CBD70246B8A0F003DC835 /* SRProxyConnect.h */,
+				184CBD6F246B8A0F003DC835 /* SRProxyConnect.m */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -613,7 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LTFDPRYSH8;
+				DEVELOPMENT_TEAM = UC845SLR7V;
 				INFOPLIST_FILE = KBFSocketRocket/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -631,7 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LTFDPRYSH8;
+				DEVELOPMENT_TEAM = UC845SLR7V;
 				INFOPLIST_FILE = KBFSocketRocket/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
